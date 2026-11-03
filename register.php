@@ -12,7 +12,7 @@
      <!-- header end -->
 
     <h3>Daftar Akun</h3>
-    <form>
+    <form action="register.php" method="post">
         <input type="username" placeholder="username" name="username"/>
         <input type="password" placeholder="password" name="password" />
         <button type="submit">Daftar Sekarang</button>
