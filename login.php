@@ -1,3 +1,9 @@
+<?php
+    if(isset($_POST['login'])){
+        
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +18,10 @@
      <!-- header end -->
 
     <h3>Masuk Akun</h3>
-    <form action="login.php" method="post">
+    <form action="login.php" method="POST">
         <input type="username" placeholder="username" name="username"/>
         <input type="password" placeholder="password" name="password" />
-        <button type="submit">Masuk</button>
+        <button type="submit" name="login">Masuk</button>
     </form>
 
     <!-- footer start -->
