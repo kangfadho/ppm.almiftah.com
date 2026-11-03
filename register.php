@@ -10,11 +10,16 @@
     <!-- header start -->
      <?php include "layout/header.html" ?>
      <!-- header end -->
+
     <h3>Daftar Akun</h3>
     <form>
         <input type="username" placeholder="username" name="username"/>
         <input type="password" placeholder="password" name="password" />
         <button type="submit">Daftar Sekarang</button>
     </form>
+
+    <!-- footer start -->
+     <?php include "layout/footer.html" ?>
+     <!-- footer end -->
 </body>
 </html>
